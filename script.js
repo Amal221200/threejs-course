@@ -1,11 +1,11 @@
 import * as THREE from "three";
 import gsap from "gsap";
-import mesh from "./mesh";
-import camera from "./camera";
-import orbitControls from "./orbitControls";
-import renderer from "./renderer";
-import { sizes } from "./constants";
-import scene from "./scene";
+import mesh from "./modules/mesh";
+import camera from "./modules/camera";
+import orbitControls from "./modules/orbitControls";
+import renderer from "./modules/renderer";
+import { sizes } from "./modules/constants";
+import scene from "./modules/scene";
 
 window.addEventListener('resize', () => {
   sizes.width = window.innerWidth
