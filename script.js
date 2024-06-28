@@ -46,7 +46,7 @@ tl.fromTo('nav', {
   y: 0
 })
 
-tl.from('.title', {
+tl.fromTo('.title', {
   opacity: 0,
 }, {
   opacity: 1
